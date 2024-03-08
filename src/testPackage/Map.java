@@ -15,7 +15,7 @@ public class Map
 				grid[r][c] = new Cell();
 			}
 		}
-		player = new PlayerCell("Player", ((int)(Math.random() * 5 + 1)), (int)(Math.random() * 5 + 1));
+		player = new PlayerCell("Player", ((int)(Math.random() * 4)), (int)(Math.random() * 4));
 		grid[player.getRow()][player.getCol()] = player;
 	}
 	public String getMap()
